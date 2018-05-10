@@ -1,0 +1,4 @@
+<launch>
+    <node name="leap_motion_publisher" pkg="inverse_kinematic" type="Sample.py" output="screen"/>
+    <node name="inverse_kinematics" pkg="inverse_kinematic" type="ik_node_joint_robot.py"  output="screen"/>
+</launch>
